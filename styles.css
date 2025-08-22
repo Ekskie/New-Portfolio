@@ -2958,7 +2958,7 @@ blockquote {
   justify-content: flex-end;
   align-items: center;
   padding-left: 35px;
-display: none;
+
 }
 
 .scene-wrapper {
@@ -5077,3 +5077,4 @@ display: none;
   font-style: normal;
   font-display: swap;
 }
+
