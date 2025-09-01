@@ -13524,465 +13524,630 @@ Webflow.require("ix2").init({
         },
       ],
       createdOn: 1701777144057,
-    },
-    "a-11": {
-      id: "a-11",
-      title: "Testimonials Profile Animation",
-      continuousParameterGroups: [
-        {
-          id: "a-11-p",
-          type: "SCROLL_PROGRESS",
-          parameterLabel: "Scroll",
-          continuousActionGroups: [
-            {
-              keyframe: 39,
-              actionItems: [
-                {
-                  id: "a-11-n-5",
-                  actionTypeId: "TRANSFORM_MOVE",
-                  config: {
-                    delay: 0,
-                    easing: "inQuad",
-                    duration: 500,
-                    target: {
-                      useEventTarget: "CHILDREN",
-                      selector: ".testimonial-indicator",
-                      selectorGuids: ["171f86ed-2508-a2fe-8b9f-c60c501aa117"],
-                    },
-                    yValue: 0,
-                    xUnit: "PX",
-                    yUnit: "px",
-                    zUnit: "PX",
+    },    
+  "a-11": {
+    "id": "a-11",
+    "title": "Testimonials Profile Animation",
+    "continuousParameterGroups": [
+      {
+        "id": "a-11-p",
+        "type": "SCROLL_PROGRESS",
+        "parameterLabel": "Scroll",
+        "continuousActionGroups": [
+          {
+            "keyframe": 39,
+            "actionItems": [
+              {
+                "id": "a-11-n-5",
+                "actionTypeId": "TRANSFORM_MOVE",
+                "config": {
+                  "delay": 0,
+                  "easing": "inQuad",
+                  "duration": 500,
+                  "target": {
+                    "useEventTarget": "CHILDREN",
+                    "selector": ".testimonial-indicator",
+                    "selectorGuids": [
+                      "171f86ed-2508-a2fe-8b9f-c60c501aa117"
+                    ]
                   },
-                },
-                {
-                  id: "a-11-n",
-                  actionTypeId: "STYLE_BORDER",
-                  config: {
-                    delay: 0,
-                    easing: "",
-                    duration: 500,
-                    target: {
-                      useEventTarget: "CHILDREN",
-                      selector: ".testimonial-profile._1",
-                      selectorGuids: [
-                        "0f70881c-acd7-20c0-3c89-60c1bf971423",
-                        "0f70881c-acd7-20c0-3c89-60c1bf971430",
-                      ],
-                    },
-                    globalSwatchId: "",
-                    rValue: 0,
-                    bValue: 0,
-                    gValue: 255,
-                    aValue: 1,
+                  "yValue": 0,
+                  "xUnit": "PX",
+                  "yUnit": "px",
+                  "zUnit": "PX"
+                }
+              },
+              {
+                "id": "a-11-n",
+                "actionTypeId": "STYLE_BORDER",
+                "config": {
+                  "delay": 0,
+                  "easing": "",
+                  "duration": 500,
+                  "target": {
+                    "useEventTarget": "CHILDREN",
+                    "selector": ".testimonial-profile._1",
+                    "selectorGuids": [
+                      "0f70881c-acd7-20c0-3c89-60c1bf971423",
+                      "0f70881c-acd7-20c0-3c89-60c1bf971430"
+                    ]
                   },
-                },
-                {
-                  id: "a-11-n-10",
-                  actionTypeId: "STYLE_BACKGROUND_COLOR",
-                  config: {
-                    delay: 0,
-                    easing: "",
-                    duration: 500,
-                    target: {
-                      useEventTarget: "CHILDREN",
-                      selector: ".profile-gradient._1",
-                      selectorGuids: [
-                        "889c36cb-5571-a783-a496-11dcd7805356",
-                        "cfdb78bc-ffd2-2588-53fa-b942f6201762",
-                      ],
-                    },
-                    globalSwatchId: "",
-                    rValue: 0,
-                    bValue: 0,
-                    gValue: 0,
-                    aValue: 0,
+                  "globalSwatchId": "",
+                  "rValue": 0,
+                  "bValue": 0,
+                  "gValue": 255,
+                  "aValue": 1
+                }
+              },
+              {
+                "id": "a-11-n-10",
+                "actionTypeId": "STYLE_BACKGROUND_COLOR",
+                "config": {
+                  "delay": 0,
+                  "easing": "",
+                  "duration": 500,
+                  "target": {
+                    "useEventTarget": "CHILDREN",
+                    "selector": ".profile-gradient._1",
+                    "selectorGuids": [
+                      "889c36cb-5571-a783-a496-11dcd7805356",
+                      "cfdb78bc-ffd2-2588-53fa-b942f6201762"
+                    ]
                   },
-                },
-                {
-                  id: "a-11-n-3",
-                  actionTypeId: "STYLE_BORDER",
-                  config: {
-                    delay: 0,
-                    easing: "",
-                    duration: 500,
-                    target: {
-                      useEventTarget: "CHILDREN",
-                      selector: ".testimonial-profile._2",
-                      selectorGuids: [
-                        "0f70881c-acd7-20c0-3c89-60c1bf971423",
-                        "0f70881c-acd7-20c0-3c89-60c1bf97142c",
-                      ],
-                    },
-                    globalSwatchId: "",
-                    rValue: 0,
-                    bValue: 0,
-                    gValue: 0,
-                    aValue: 1,
+                  "globalSwatchId": "",
+                  "rValue": 0,
+                  "bValue": 0,
+                  "gValue": 0,
+                  "aValue": 0
+                }
+              },
+              {
+                "id": "a-11-n-3",
+                "actionTypeId": "STYLE_BORDER",
+                "config": {
+                  "delay": 0,
+                  "easing": "",
+                  "duration": 500,
+                  "target": {
+                    "useEventTarget": "CHILDREN",
+                    "selector": ".testimonial-profile._2",
+                    "selectorGuids": [
+                      "0f70881c-acd7-20c0-3c89-60c1bf971423",
+                      "0f70881c-acd7-20c0-3c89-60c1bf97142c"
+                    ]
                   },
-                },
-                {
-                  id: "a-11-n-11",
-                  actionTypeId: "STYLE_BACKGROUND_COLOR",
-                  config: {
-                    delay: 0,
-                    easing: "",
-                    duration: 500,
-                    target: {
-                      useEventTarget: "CHILDREN",
-                      selector: ".profile-gradient._2",
-                      selectorGuids: [
-                        "889c36cb-5571-a783-a496-11dcd7805356",
-                        "5ad3fa18-111a-0394-1526-49424a0b4473",
-                      ],
-                    },
-                    globalSwatchId: "",
-                    rValue: 0,
-                    bValue: 0,
-                    gValue: 0,
-                    aValue: 0.7,
+                  "globalSwatchId": "",
+                  "rValue": 0,
+                  "bValue": 0,
+                  "gValue": 0,
+                  "aValue": 1
+                }
+              },
+              {
+                "id": "a-11-n-11",
+                "actionTypeId": "STYLE_BACKGROUND_COLOR",
+                "config": {
+                  "delay": 0,
+                  "easing": "",
+                  "duration": 500,
+                  "target": {
+                    "useEventTarget": "CHILDREN",
+                    "selector": ".profile-gradient._2",
+                    "selectorGuids": [
+                      "889c36cb-5571-a783-a496-11dcd7805356",
+                      "5ad3fa18-111a-0394-1526-49424a0b4473"
+                    ]
                   },
-                },
-              ],
-            },
-            {
-              keyframe: 41,
-              actionItems: [
-                {
-                  id: "a-11-n-9",
-                  actionTypeId: "TRANSFORM_MOVE",
-                  config: {
-                    delay: 0,
-                    easing: "inQuad",
-                    duration: 500,
-                    target: {
-                      useEventTarget: "CHILDREN",
-                      selector: ".testimonial-indicator",
-                      selectorGuids: ["171f86ed-2508-a2fe-8b9f-c60c501aa117"],
-                    },
-                    yValue: 120,
-                    xUnit: "PX",
-                    yUnit: "px",
-                    zUnit: "PX",
+                  "globalSwatchId": "",
+                  "rValue": 0,
+                  "bValue": 0,
+                  "gValue": 0,
+                  "aValue": 0.7
+                }
+              }
+            ]
+          },
+          {
+            "keyframe": 41,
+            "actionItems": [
+              {
+                "id": "a-11-n-9",
+                "actionTypeId": "TRANSFORM_MOVE",
+                "config": {
+                  "delay": 0,
+                  "easing": "inQuad",
+                  "duration": 500,
+                  "target": {
+                    "useEventTarget": "CHILDREN",
+                    "selector": ".testimonial-indicator",
+                    "selectorGuids": [
+                      "171f86ed-2508-a2fe-8b9f-c60c501aa117"
+                    ]
                   },
-                },
-                {
-                  id: "a-11-n-6",
-                  actionTypeId: "STYLE_BORDER",
-                  config: {
-                    delay: 0,
-                    easing: "",
-                    duration: 500,
-                    target: {
-                      useEventTarget: "CHILDREN",
-                      selector: ".testimonial-profile._1",
-                      selectorGuids: [
-                        "0f70881c-acd7-20c0-3c89-60c1bf971423",
-                        "0f70881c-acd7-20c0-3c89-60c1bf971430",
-                      ],
-                    },
-                    globalSwatchId: "",
-                    rValue: 0,
-                    bValue: 0,
-                    gValue: 0,
-                    aValue: 1,
+                  "yValue": 120,
+                  "xUnit": "PX",
+                  "yUnit": "px",
+                  "zUnit": "PX"
+                }
+              },
+              {
+                "id": "a-11-n-6",
+                "actionTypeId": "STYLE_BORDER",
+                "config": {
+                  "delay": 0,
+                  "easing": "",
+                  "duration": 500,
+                  "target": {
+                    "useEventTarget": "CHILDREN",
+                    "selector": ".testimonial-profile._1",
+                    "selectorGuids": [
+                      "0f70881c-acd7-20c0-3c89-60c1bf971423",
+                      "0f70881c-acd7-20c0-3c89-60c1bf971430"
+                    ]
                   },
-                },
-                {
-                  id: "a-11-n-13",
-                  actionTypeId: "STYLE_BACKGROUND_COLOR",
-                  config: {
-                    delay: 0,
-                    easing: "",
-                    duration: 500,
-                    target: {
-                      useEventTarget: "CHILDREN",
-                      selector: ".profile-gradient._1",
-                      selectorGuids: [
-                        "889c36cb-5571-a783-a496-11dcd7805356",
-                        "cfdb78bc-ffd2-2588-53fa-b942f6201762",
-                      ],
-                    },
-                    globalSwatchId: "",
-                    rValue: 0,
-                    bValue: 0,
-                    gValue: 0,
-                    aValue: 0.7,
+                  "globalSwatchId": "",
+                  "rValue": 0,
+                  "bValue": 0,
+                  "gValue": 0,
+                  "aValue": 1
+                }
+              },
+              {
+                "id": "a-11-n-13",
+                "actionTypeId": "STYLE_BACKGROUND_COLOR",
+                "config": {
+                  "delay": 0,
+                  "easing": "",
+                  "duration": 500,
+                  "target": {
+                    "useEventTarget": "CHILDREN",
+                    "selector": ".profile-gradient._1",
+                    "selectorGuids": [
+                      "889c36cb-5571-a783-a496-11dcd7805356",
+                      "cfdb78bc-ffd2-2588-53fa-b942f6201762"
+                    ]
                   },
-                },
-                {
-                  id: "a-11-n-12",
-                  actionTypeId: "STYLE_BACKGROUND_COLOR",
-                  config: {
-                    delay: 0,
-                    easing: "",
-                    duration: 500,
-                    target: {
-                      useEventTarget: "CHILDREN",
-                      selector: ".profile-gradient._2",
-                      selectorGuids: [
-                        "889c36cb-5571-a783-a496-11dcd7805356",
-                        "5ad3fa18-111a-0394-1526-49424a0b4473",
-                      ],
-                    },
-                    globalSwatchId: "",
-                    rValue: 0,
-                    bValue: 0,
-                    gValue: 0,
-                    aValue: 0,
+                  "globalSwatchId": "",
+                  "rValue": 0,
+                  "bValue": 0,
+                  "gValue": 0,
+                  "aValue": 0.7
+                }
+              },
+              {
+                "id": "a-11-n-12",
+                "actionTypeId": "STYLE_BACKGROUND_COLOR",
+                "config": {
+                  "delay": 0,
+                  "easing": "",
+                  "duration": 500,
+                  "target": {
+                    "useEventTarget": "CHILDREN",
+                    "selector": ".profile-gradient._2",
+                    "selectorGuids": [
+                      "889c36cb-5571-a783-a496-11dcd7805356",
+                      "5ad3fa18-111a-0394-1526-49424a0b4473"
+                    ]
                   },
-                },
-                {
-                  id: "a-11-n-7",
-                  actionTypeId: "STYLE_BORDER",
-                  config: {
-                    delay: 0,
-                    easing: "",
-                    duration: 500,
-                    target: {
-                      useEventTarget: "CHILDREN",
-                      selector: ".testimonial-profile._2",
-                      selectorGuids: [
-                        "0f70881c-acd7-20c0-3c89-60c1bf971423",
-                        "0f70881c-acd7-20c0-3c89-60c1bf97142c",
-                      ],
-                    },
-                    globalSwatchId: "",
-                    rValue: 0,
-                    bValue: 0,
-                    gValue: 255,
-                    aValue: 1,
+                  "globalSwatchId": "",
+                  "rValue": 0,
+                  "bValue": 0,
+                  "gValue": 0,
+                  "aValue": 0
+                }
+              },
+              {
+                "id": "a-11-n-7",
+                "actionTypeId": "STYLE_BORDER",
+                "config": {
+                  "delay": 0,
+                  "easing": "",
+                  "duration": 500,
+                  "target": {
+                    "useEventTarget": "CHILDREN",
+                    "selector": ".testimonial-profile._2",
+                    "selectorGuids": [
+                      "0f70881c-acd7-20c0-3c89-60c1bf971423",
+                      "0f70881c-acd7-20c0-3c89-60c1bf97142c"
+                    ]
                   },
-                },
-              ],
-            },
-            {
-              keyframe: 57,
-              actionItems: [
-                {
-                  id: "a-11-n-20",
-                  actionTypeId: "TRANSFORM_MOVE",
-                  config: {
-                    delay: 0,
-                    easing: "inQuad",
-                    duration: 500,
-                    target: {
-                      useEventTarget: "CHILDREN",
-                      selector: ".testimonial-indicator",
-                      selectorGuids: ["171f86ed-2508-a2fe-8b9f-c60c501aa117"],
-                    },
-                    yValue: 120,
-                    xUnit: "PX",
-                    yUnit: "px",
-                    zUnit: "PX",
+                  "globalSwatchId": "",
+                  "rValue": 0,
+                  "bValue": 0,
+                  "gValue": 255,
+                  "aValue": 1
+                }
+              }
+            ]
+          },
+          {
+            "keyframe": 57,
+            "actionItems": [
+              {
+                "id": "a-11-n-20",
+                "actionTypeId": "TRANSFORM_MOVE",
+                "config": {
+                  "delay": 0,
+                  "easing": "inQuad",
+                  "duration": 500,
+                  "target": {
+                    "useEventTarget": "CHILDREN",
+                    "selector": ".testimonial-indicator",
+                    "selectorGuids": [
+                      "171f86ed-2508-a2fe-8b9f-c60c501aa117"
+                    ]
                   },
-                },
-                {
-                  id: "a-11-n-17",
-                  actionTypeId: "STYLE_BACKGROUND_COLOR",
-                  config: {
-                    delay: 0,
-                    easing: "",
-                    duration: 500,
-                    target: {
-                      useEventTarget: "CHILDREN",
-                      selector: ".profile-gradient._2",
-                      selectorGuids: [
-                        "889c36cb-5571-a783-a496-11dcd7805356",
-                        "5ad3fa18-111a-0394-1526-49424a0b4473",
-                      ],
-                    },
-                    globalSwatchId: "",
-                    rValue: 0,
-                    bValue: 0,
-                    gValue: 0,
-                    aValue: 0,
+                  "yValue": 120,
+                  "xUnit": "PX",
+                  "yUnit": "px",
+                  "zUnit": "PX"
+                }
+              },
+              {
+                "id": "a-11-n-17",
+                "actionTypeId": "STYLE_BACKGROUND_COLOR",
+                "config": {
+                  "delay": 0,
+                  "easing": "",
+                  "duration": 500,
+                  "target": {
+                    "useEventTarget": "CHILDREN",
+                    "selector": ".profile-gradient._2",
+                    "selectorGuids": [
+                      "889c36cb-5571-a783-a496-11dcd7805356",
+                      "5ad3fa18-111a-0394-1526-49424a0b4473"
+                    ]
                   },
-                },
-                {
-                  id: "a-11-n-18",
-                  actionTypeId: "STYLE_BORDER",
-                  config: {
-                    delay: 0,
-                    easing: "",
-                    duration: 500,
-                    target: {
-                      useEventTarget: "CHILDREN",
-                      selector: ".testimonial-profile._2",
-                      selectorGuids: [
-                        "0f70881c-acd7-20c0-3c89-60c1bf971423",
-                        "0f70881c-acd7-20c0-3c89-60c1bf97142c",
-                      ],
-                    },
-                    globalSwatchId: "",
-                    rValue: 0,
-                    bValue: 0,
-                    gValue: 255,
-                    aValue: 1,
+                  "globalSwatchId": "",
+                  "rValue": 0,
+                  "bValue": 0,
+                  "gValue": 0,
+                  "aValue": 0
+                }
+              },
+              {
+                "id": "a-11-n-18",
+                "actionTypeId": "STYLE_BORDER",
+                "config": {
+                  "delay": 0,
+                  "easing": "",
+                  "duration": 500,
+                  "target": {
+                    "useEventTarget": "CHILDREN",
+                    "selector": ".testimonial-profile._2",
+                    "selectorGuids": [
+                      "0f70881c-acd7-20c0-3c89-60c1bf971423",
+                      "0f70881c-acd7-20c0-3c89-60c1bf97142c"
+                    ]
                   },
-                },
-                {
-                  id: "a-11-n-14",
-                  actionTypeId: "STYLE_BORDER",
-                  config: {
-                    delay: 0,
-                    easing: "",
-                    duration: 500,
-                    target: {
-                      useEventTarget: "CHILDREN",
-                      selector: ".testimonial-profile._3",
-                      selectorGuids: [
-                        "0f70881c-acd7-20c0-3c89-60c1bf971423",
-                        "0f70881c-acd7-20c0-3c89-60c1bf97142a",
-                      ],
-                    },
-                    globalSwatchId: "",
-                    rValue: 0,
-                    bValue: 0,
-                    gValue: 0,
-                    aValue: 1,
+                  "globalSwatchId": "",
+                  "rValue": 0,
+                  "bValue": 0,
+                  "gValue": 255,
+                  "aValue": 1
+                }
+              },
+              {
+                "id": "a-11-n-14",
+                "actionTypeId": "STYLE_BORDER",
+                "config": {
+                  "delay": 0,
+                  "easing": "",
+                  "duration": 500,
+                  "target": {
+                    "useEventTarget": "CHILDREN",
+                    "selector": ".testimonial-profile._3",
+                    "selectorGuids": [
+                      "0f70881c-acd7-20c0-3c89-60c1bf971423",
+                      "0f70881c-acd7-20c0-3c89-60c1bf97142a"
+                    ]
                   },
-                },
-                {
-                  id: "a-11-n-15",
-                  actionTypeId: "STYLE_BACKGROUND_COLOR",
-                  config: {
-                    delay: 0,
-                    easing: "",
-                    duration: 500,
-                    target: {
-                      useEventTarget: "CHILDREN",
-                      selector: ".profile-gradient._3",
-                      selectorGuids: [
-                        "889c36cb-5571-a783-a496-11dcd7805356",
-                        "ed25dea2-ac2b-3efe-c16a-9fd975328d33",
-                      ],
-                    },
-                    globalSwatchId: "",
-                    rValue: 0,
-                    bValue: 0,
-                    gValue: 0,
-                    aValue: 0.7,
+                  "globalSwatchId": "",
+                  "rValue": 0,
+                  "bValue": 0,
+                  "gValue": 0,
+                  "aValue": 1
+                }
+              },
+              {
+                "id": "a-11-n-15",
+                "actionTypeId": "STYLE_BACKGROUND_COLOR",
+                "config": {
+                  "delay": 0,
+                  "easing": "",
+                  "duration": 500,
+                  "target": {
+                    "useEventTarget": "CHILDREN",
+                    "selector": ".profile-gradient._3",
+                    "selectorGuids": [
+                      "889c36cb-5571-a783-a496-11dcd7805356",
+                      "ed25dea2-ac2b-3efe-c16a-9fd975328d33"
+                    ]
                   },
-                },
-              ],
-            },
-            {
-              keyframe: 60,
-              actionItems: [
-                {
-                  id: "a-11-n-19",
-                  actionTypeId: "TRANSFORM_MOVE",
-                  config: {
-                    delay: 0,
-                    easing: "inQuad",
-                    duration: 500,
-                    target: {
-                      useEventTarget: "CHILDREN",
-                      selector: ".testimonial-indicator",
-                      selectorGuids: ["171f86ed-2508-a2fe-8b9f-c60c501aa117"],
-                    },
-                    yValue: 235,
-                    xUnit: "PX",
-                    yUnit: "px",
-                    zUnit: "PX",
+                  "globalSwatchId": "",
+                  "rValue": 0,
+                  "bValue": 0,
+                  "gValue": 0,
+                  "aValue": 0.7
+                }
+              }
+            ]
+          },
+          {
+            "keyframe": 60,
+            "actionItems": [
+              {
+                "id": "a-11-n-19",
+                "actionTypeId": "TRANSFORM_MOVE",
+                "config": {
+                  "delay": 0,
+                  "easing": "inQuad",
+                  "duration": 500,
+                  "target": {
+                    "useEventTarget": "CHILDREN",
+                    "selector": ".testimonial-indicator",
+                    "selectorGuids": [
+                      "171f86ed-2508-a2fe-8b9f-c60c501aa117"
+                    ]
                   },
-                },
-                {
-                  id: "a-11-n-21",
-                  actionTypeId: "STYLE_BACKGROUND_COLOR",
-                  config: {
-                    delay: 0,
-                    easing: "",
-                    duration: 500,
-                    target: {
-                      useEventTarget: "CHILDREN",
-                      selector: ".profile-gradient._2",
-                      selectorGuids: [
-                        "889c36cb-5571-a783-a496-11dcd7805356",
-                        "5ad3fa18-111a-0394-1526-49424a0b4473",
-                      ],
-                    },
-                    globalSwatchId: "",
-                    rValue: 0,
-                    bValue: 0,
-                    gValue: 0,
-                    aValue: 0.7,
+                  "yValue": 235,
+                  "xUnit": "PX",
+                  "yUnit": "px",
+                  "zUnit": "PX"
+                }
+              },
+              {
+                "id": "a-11-n-21",
+                "actionTypeId": "STYLE_BACKGROUND_COLOR",
+                "config": {
+                  "delay": 0,
+                  "easing": "",
+                  "duration": 500,
+                  "target": {
+                    "useEventTarget": "CHILDREN",
+                    "selector": ".profile-gradient._2",
+                    "selectorGuids": [
+                      "889c36cb-5571-a783-a496-11dcd7805356",
+                      "5ad3fa18-111a-0394-1526-49424a0b4473"
+                    ]
                   },
-                },
-                {
-                  id: "a-11-n-22",
-                  actionTypeId: "STYLE_BORDER",
-                  config: {
-                    delay: 0,
-                    easing: "",
-                    duration: 500,
-                    target: {
-                      useEventTarget: "CHILDREN",
-                      selector: ".testimonial-profile._2",
-                      selectorGuids: [
-                        "0f70881c-acd7-20c0-3c89-60c1bf971423",
-                        "0f70881c-acd7-20c0-3c89-60c1bf97142c",
-                      ],
-                    },
-                    globalSwatchId: "",
-                    rValue: 0,
-                    bValue: 0,
-                    gValue: 0,
-                    aValue: 1,
+                  "globalSwatchId": "",
+                  "rValue": 0,
+                  "bValue": 0,
+                  "gValue": 0,
+                  "aValue": 0.7
+                }
+              },
+              {
+                "id": "a-11-n-22",
+                "actionTypeId": "STYLE_BORDER",
+                "config": {
+                  "delay": 0,
+                  "easing": "",
+                  "duration": 500,
+                  "target": {
+                    "useEventTarget": "CHILDREN",
+                    "selector": ".testimonial-profile._2",
+                    "selectorGuids": [
+                      "0f70881c-acd7-20c0-3c89-60c1bf971423",
+                      "0f70881c-acd7-20c0-3c89-60c1bf97142c"
+                    ]
                   },
-                },
-                {
-                  id: "a-11-n-8",
-                  actionTypeId: "STYLE_BORDER",
-                  config: {
-                    delay: 0,
-                    easing: "",
-                    duration: 500,
-                    target: {
-                      useEventTarget: "CHILDREN",
-                      selector: ".testimonial-profile._3",
-                      selectorGuids: [
-                        "0f70881c-acd7-20c0-3c89-60c1bf971423",
-                        "0f70881c-acd7-20c0-3c89-60c1bf97142a",
-                      ],
-                    },
-                    globalSwatchId: "",
-                    rValue: 0,
-                    bValue: 0,
-                    gValue: 255,
-                    aValue: 1,
+                  "globalSwatchId": "",
+                  "rValue": 0,
+                  "bValue": 0,
+                  "gValue": 0,
+                  "aValue": 1
+                }
+              },
+              {
+                "id": "a-11-n-8",
+                "actionTypeId": "STYLE_BORDER",
+                "config": {
+                  "delay": 0,
+                  "easing": "",
+                  "duration": 500,
+                  "target": {
+                    "useEventTarget": "CHILDREN",
+                    "selector": ".testimonial-profile._3",
+                    "selectorGuids": [
+                      "0f70881c-acd7-20c0-3c89-60c1bf971423",
+                      "0f70881c-acd7-20c0-3c89-60c1bf97142a"
+                    ]
                   },
-                },
-                {
-                  id: "a-11-n-16",
-                  actionTypeId: "STYLE_BACKGROUND_COLOR",
-                  config: {
-                    delay: 0,
-                    easing: "",
-                    duration: 500,
-                    target: {
-                      useEventTarget: "CHILDREN",
-                      selector: ".profile-gradient._3",
-                      selectorGuids: [
-                        "889c36cb-5571-a783-a496-11dcd7805356",
-                        "ed25dea2-ac2b-3efe-c16a-9fd975328d33",
-                      ],
-                    },
-                    globalSwatchId: "",
-                    rValue: 0,
-                    bValue: 0,
-                    gValue: 0,
-                    aValue: 0,
+                  "globalSwatchId": "",
+                  "rValue": 0,
+                  "bValue": 0,
+                  "gValue": 255,
+                  "aValue": 1
+                }
+              },
+              {
+                "id": "a-11-n-16",
+                "actionTypeId": "STYLE_BACKGROUND_COLOR",
+                "config": {
+                  "delay": 0,
+                  "easing": "",
+                  "duration": 500,
+                  "target": {
+                    "useEventTarget": "CHILDREN",
+                    "selector": ".profile-gradient._3",
+                    "selectorGuids": [
+                      "889c36cb-5571-a783-a496-11dcd7805356",
+                      "ed25dea2-ac2b-3efe-c16a-9fd975328d33"
+                    ]
                   },
-                },
-              ],
-            },
-          ],
-        },
-      ],
-      createdOn: 1704901387418,
-    },
+                  "globalSwatchId": "",
+                  "rValue": 0,
+                  "bValue": 0,
+                  "gValue": 0,
+                  "aValue": 0
+                }
+              },
+              {
+                "id": "a-11-n-25",
+                "actionTypeId": "STYLE_BORDER",
+                "config": {
+                  "delay": 0,
+                  "easing": "",
+                  "duration": 500,
+                  "target": {
+                    "useEventTarget": "CHILDREN",
+                    "selector": ".testimonial-profile._4",
+                    "selectorGuids": [
+                      "0f70881c-acd7-20c0-3c89-60c1bf971423",
+                      "0f70881c-acd7-20c0-3c89-60c1bf97142a"
+                    ]
+                  },
+                  "globalSwatchId": "",
+                  "rValue": 0,
+                  "bValue": 0,
+                  "gValue": 0,
+                  "aValue": 1
+                }
+              },
+              {
+                "id": "a-11-n-26",
+                "actionTypeId": "STYLE_BACKGROUND_COLOR",
+                "config": {
+                  "delay": 0,
+                  "easing": "",
+                  "duration": 500,
+                  "target": {
+                    "useEventTarget": "CHILDREN",
+                    "selector": ".profile-gradient._4",
+                    "selectorGuids": [
+                      "889c36cb-5571-a783-a496-11dcd7805356",
+                      "ed25dea2-ac2b-3efe-c16a-9fd975328d33"
+                    ]
+                  },
+                  "globalSwatchId": "",
+                  "rValue": 0,
+                  "bValue": 0,
+                  "gValue": 0,
+                  "aValue": 0.7
+                }
+              }
+            ]
+          },
+          {
+            "keyframe": 85,
+            "actionItems": [
+              {
+                "id": "a-11-n-27",
+                "actionTypeId": "TRANSFORM_MOVE",
+                "config": {
+                  "delay": 0,
+                  "easing": "inQuad",
+                  "duration": 500,
+                  "target": {
+                    "useEventTarget": "CHILDREN",
+                    "selector": ".testimonial-indicator",
+                    "selectorGuids": [
+                      "171f86ed-2508-a2fe-8b9f-c60c501aa117"
+                    ]
+                  },
+                  "yValue": 340,
+                  "xUnit": "PX",
+                  "yUnit": "px",
+                  "zUnit": "PX"
+                }
+              },
+              {
+                "id": "a-11-n-28",
+                "actionTypeId": "STYLE_BORDER",
+                "config": {
+                  "delay": 0,
+                  "easing": "",
+                  "duration": 500,
+                  "target": {
+                    "useEventTarget": "CHILDREN",
+                    "selector": ".testimonial-profile._3",
+                    "selectorGuids": [
+                      "0f70881c-acd7-20c0-3c89-60c1bf971423",
+                      "0f70881c-acd7-20c0-3c89-60c1bf97142a"
+                    ]
+                  },
+                  "globalSwatchId": "",
+                  "rValue": 0,
+                  "bValue": 0,
+                  "gValue": 0,
+                  "aValue": 1
+                }
+              },
+              {
+                "id": "a-11-n-29",
+                "actionTypeId": "STYLE_BACKGROUND_COLOR",
+                "config": {
+                  "delay": 0,
+                  "easing": "",
+                  "duration": 500,
+                  "target": {
+                    "useEventTarget": "CHILDREN",
+                    "selector": ".profile-gradient._3",
+                    "selectorGuids": [
+                      "889c36cb-5571-a783-a496-11dcd7805356",
+                      "ed25dea2-ac2b-3efe-c16a-9fd975328d33"
+                    ]
+                  },
+                  "globalSwatchId": "",
+                  "rValue": 0,
+                  "bValue": 0,
+                  "gValue": 0,
+                  "aValue": 0
+                }
+              },
+              {
+                "id": "a-11-n-30",
+                "actionTypeId": "STYLE_BORDER",
+                "config": {
+                  "delay": 0,
+                  "easing": "",
+                  "duration": 500,
+                  "target": {
+                    "useEventTarget": "CHILDREN",
+                    "selector": ".testimonial-profile._4",
+                    "selectorGuids": [
+                      "0f70881c-acd7-20c0-3c89-60c1bf971423",
+                      "0f70881c-acd7-20c0-3c89-60c1bf97142a"
+                    ]
+                  },
+                  "globalSwatchId": "",
+                  "rValue": 0,
+                  "bValue": 0,
+                  "gValue": 255,
+                  "aValue": 1
+                }
+              },
+              {
+                "id": "a-11-n-31",
+                "actionTypeId": "STYLE_BACKGROUND_COLOR",
+                "config": {
+                  "delay": 0,
+                  "easing": "",
+                  "duration": 500,
+                  "target": {
+                    "useEventTarget": "CHILDREN",
+                    "selector": ".profile-gradient._4",
+                    "selectorGuids": [
+                      "889c36cb-5571-a783-a496-11dcd7805356",
+                      "ed25dea2-ac2b-3efe-c16a-9fd975328d33"
+                    ]
+                  },
+                  "globalSwatchId": "",
+                  "rValue": 0,
+                  "bValue": 0,
+                  "gValue": 0,
+                  "aValue": 0
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "createdOn": 1704901387418
+  },
     "a-14": {
       id: "a-14",
       title: "Hero Text Marquee",
