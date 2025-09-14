@@ -12570,10 +12570,10 @@ Webflow.require("ix2").init({
                   selectorGuids: ["2ddb2524-6254-9485-c45f-58cfcb363132"],
                 },
                 globalSwatchId: "",
-                rValue: 255,
-                bValue: 255,
-                gValue: 255,
-                aValue: 0.13,
+                rValue: 24,
+                bValue: 217,
+                gValue: 206,
+                aValue: 1,
               },
             },
           ],
@@ -12660,10 +12660,10 @@ Webflow.require("ix2").init({
                   selectorGuids: ["2ddb2524-6254-9485-c45f-58cfcb363132"],
                 },
                 globalSwatchId: "",
-                rValue: 255,
-                bValue: 255,
-                gValue: 255,
-                aValue: 0.13,
+                rValue: 24,
+                bValue: 217,
+                gValue: 206,
+                aValue: 1,
               },
             },
           ],
@@ -13525,6 +13525,7 @@ Webflow.require("ix2").init({
       ],
       createdOn: 1701777144057,
     },    
+  
   "a-11": {
     "id": "a-11",
     "title": "Testimonials Profile Animation",
@@ -13777,7 +13778,7 @@ Webflow.require("ix2").init({
                       "171f86ed-2508-a2fe-8b9f-c60c501aa117"
                     ]
                   },
-                  "yValue": 120,
+                  "yValue": 235,
                   "xUnit": "PX",
                   "yUnit": "px",
                   "zUnit": "PX"
@@ -14148,6 +14149,7 @@ Webflow.require("ix2").init({
     ],
     "createdOn": 1704901387418
   },
+
     "a-14": {
       id: "a-14",
       title: "Hero Text Marquee",
